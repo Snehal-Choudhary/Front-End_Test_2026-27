@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class Result Sheet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Class Result Sheet</h2>
+    <button id="generateBtn">Generate Results</button>
+
+    <div id="resultSection" class="hidden">
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Total (300)</th>
+            <th>Percentage</th>
+            <th>Grade</th>
+            <th>Result</th>
+          </tr>
+        </thead>
+        <tbody id="resultBody"></tbody>
+      </table>
+
+      <div class="summary" id="summarySection"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
